@@ -42,10 +42,53 @@
 }
 
 .catogorize {
+    position: relative;
+    top: 15px;
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "CircularSpotifyText", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.Design{
+    position: relative;
+    top: 10px;
+    font-family: "CircularSpotifyText", -apple-system, BlinkMacSystemFont, sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+
+.cards-wrapper p{
+    font-family: "CircularSpotifyText", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+}
+.text{
+    padding: 10px 0px;
+}
+.card-text1{
+    font-family: "CircularSpotifyText", -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: black;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 7px;
+}
+
+.card-text{
+    font-family: "CircularSpotifyText", -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 7px;
+    text-decoration: none;
 }
 
 @media (max-width: 1199px) {
